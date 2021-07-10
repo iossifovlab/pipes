@@ -10,8 +10,8 @@ Installation
 ``snakeobjects`` is tested and works well on Linux and Mac; it doesn't work on
 Windows. By far, the easiest method for installing ``snakeobjects`` is to use
 the ``snakeobjects`` conda package available at the iossifovlab channel (SOON AT
-bioconda!!). This method requires a conda or miniconda  installed. (See `Conda
-Installation
+bioconda!!). This method requires for conda or miniconda to be installed. (See
+`Conda Installation
 <https://docs.conda.io/projects/conda/en/latest/user-guide/install>`_).  With
 conda ready, installing ``snakeobjects`` is simple::
 
@@ -21,7 +21,7 @@ Unfortunately, due to the large number of dependencies associated with
 ``snakemake`` this can take several minutes. After ``conda install`` finishes,
 you can use the :option:`sobjects version` command to check  if the
 installation was successful:
-    
+
 .. runblock:: console
 
     $ sobjects version
@@ -86,7 +86,7 @@ the ``sobjects`` command-line utility from within our project directory.
         1	so_hello_obj
         3
 
-The :option:`sobjects prepare` performs few initialization steps.
+The :option:`sobjects prepare` performs a few initialization steps.
 :option:`sobjects run` does the 'heavy lifting' using the ``snakemake`` to
 execute the rules for creating the object targets. The execution of our
 helloWorld pipeline should finish instantly, and we can find the file for the
@@ -102,7 +102,7 @@ result.txt target in the directory ``snakeobjects`` creates for our single
 What's next
 ===========
 
-We strongly suggest that you should examine our extensive :ref:`tutorial` next.
+We strongly suggest that you examine our extensive :ref:`tutorial` next.
 It introduces all the components necessary to design complex workflows and to
 apply them to large projects.  You can find more examples in the
 :ref:`examples`.  For a high-level overview of ``snakeobjects``, you should

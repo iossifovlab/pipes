@@ -7,15 +7,17 @@ Additional Examples
 Paper Example
 =============
 
-This section explains how to load and execute small project described in ``snakeobjects`` paper. We assume that you will work or a Linux or Mac. In
-addition, we assume that you have a conda or miniconda installed (`Conda
+This section explains how to load and execute the small project described in the
+``snakeobjects`` paper. We assume that you will work or a Linux or Mac. In
+addition, we assume that you have conda or miniconda installed (`Conda
 Installation
 <https://docs.conda.io/projects/conda/en/latest/user-guide/install>`_).
-Everything else needed is inclucded in the
-:download:`snakeobjectsPaperExample.tgz <./snakeobjectsPaperExample.tgz>`. When you
-download and extract (``tar xzf snakeobjectsPaperExample.tgz``) file, you will
-get a directory called ``snakeobjectsPaperExample``. We assume here that this directory is placed in /tmp, but you can place it elsewhere.
-Next execute following commands:
+Everything else needed is included in the
+:download:`snakeobjectsPaperExample.tgz <./snakeobjectsPaperExample.tgz>`. When
+you download and extract (``tar xzf snakeobjectsPaperExample.tgz``) file, you
+will get a directory called ``snakeobjectsPaperExample``. We assume here that
+this directory is placed in /tmp, but you can place it elsewhere.
+Next execute the following commands:
 
 .. code-block:: bash
 		
@@ -58,8 +60,8 @@ Next execute following commands:
 		3	so_trio_obj
 		35
 
-In the subdirectory objects/denovo/o you will find allDenovoCalls.txt file.
-Opening it in excel with a little formatting can get:
+In the subdirectory objects/denovo/o you will find the allDenovoCalls.txt file.
+Opening it in excel with a little formatting will get:
 
 .. image:: _static/paperExample-allDenovoCalls.png
   :alt: allDenovoCalls.txt
@@ -68,14 +70,18 @@ Opening it in excel with a little formatting can get:
 Snakemake Tutorial Example
 ==========================
 
-This section explains how to load and execute small project reimplementing in snakeobject `snakemake Tutorial example <https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html>`_. We assume that you will work or a Linux or Mac. In
-addition, we assume that you have a conda or miniconda installed (`Conda
+This section explains how to load and execute the small project reimplementing
+in snakeobject
+`snakemake Tutorial example <https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html>`_.
+We assume that you will work or a Linux or Mac. In addition, we assume that you
+have conda or miniconda installed (`Conda
 Installation
 <https://docs.conda.io/projects/conda/en/latest/user-guide/install>`_).
 Everything else needed is inclucded in the
-:download:`snakemakeTutorialExample.tgz <./snakemakeTutorialExample.tgz>`. When you
-download and extract (``tar xzf snakemakeTutorialExample.tgz``) file, you will
-get a directory called ``snakeomakeTutorialExample``. We assume here that this directory is placed in /tmp, but you can place it elsewhere.
+:download:`snakemakeTutorialExample.tgz <./snakemakeTutorialExample.tgz>`.
+When you download and extract (``tar xzf snakemakeTutorialExample.tgz``) file,
+you will get a directory called ``snakeomakeTutorialExample``. We assume here
+that this directory is placed in /tmp, but you can place it elsewhere.
 You can then follow the same steps as described in the ``Paper example`` above.
 
 Tests Demo Examples
